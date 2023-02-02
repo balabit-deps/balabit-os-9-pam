@@ -1,3 +1,21 @@
+pam (1.4.0-11ubuntu2.3) jammy-security; urgency=medium
+
+  * SECURITY REGRESSION: fix CVE-2022-28321 patch location
+    - debian/patches-applied/CVE-2022-28321.patch: pam_access: handle
+      hostnames in access.conf
+    - CVE-2022-28321
+
+ -- Nishit Majithia <nishit.majithia@canonical.com>  Thu, 02 Feb 2023 14:51:46 +0530
+
+pam (1.4.0-11ubuntu2.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: authentication bypass vulnerability
+    - debian/patches/CVE-2022-28321.patch: pam_access: handle hostnames in
+      access.conf
+    - CVE-2022-28321
+
+ -- Nishit Majithia <nishit.majithia@canonical.com>  Tue, 24 Jan 2023 17:07:01 +0530
+
 pam (1.4.0-11ubuntu2) jammy; urgency=medium
 
   * Drop Recommends on update-motd which is no longer used and is not being
