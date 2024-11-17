@@ -1,3 +1,9 @@
+pam (1.4.0-11ubuntu2.5) jammy; urgency=medium
+
+  * Honor private home directory permissions (LP: #1957024)
+
+ -- Ponnuvel Palaniyappan <pponnuvel@gmail.com>  Sun, 17 Nov 2024 10:17:22 +0000
+
 pam (1.4.0-11ubuntu2.4) jammy-security; urgency=medium
 
   * SECURITY UPDATE: pam_namespace local denial of service
